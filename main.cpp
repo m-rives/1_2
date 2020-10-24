@@ -21,7 +21,7 @@ int main()
 {
     string isbn;        //declare variables
     string isbn_raw;
-
+    int res;
     cout << "" << endl;     //obvious cout is obvious
     cout << "This algorithm provides the calculation of the checkdigit for incomplete ISBN-13 codes." << endl;
     cout << "" << endl;
@@ -34,8 +34,12 @@ int main()
     isbn_raw = isbn;                //save original isbn for final output
 
     cout << "isbn_raw:" << isbn_raw << endl;
-    boost::erase_all(isbn, "-");
+    boost::erase_all(isbn, "-");        //erase all dashes
     cout << "isbn:" << isbn << endl;
 
+    res = std::stoi (isbn);             // string to integer
+    cout << "integer res:" << res << endl;
+
+    //cout << "1st pos res" << res << endl;
 
 }
