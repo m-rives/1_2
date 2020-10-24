@@ -1,0 +1,4 @@
+ToolSet: w64 8.0 (local)@C:\Program Files\mingw-w64\mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e\mingw32
+Options: msvc.platform=store
+
+Options:
