@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Rives/Desktop/PAD3_git/1.2/main.cpp
+string
+-
+vector
+-
+iostream
+-
+sstream
+-
+ostream
+-
+algorithm
+-
+boost/algorithm/string.hpp
+-
+
