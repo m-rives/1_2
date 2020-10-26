@@ -36,18 +36,18 @@ int main()
     cin >> m;
     cout << "" << endl;
 
+
+
+    vector <int> amount(K,0);
+
     vector <int> randomNumber(n,0);
 
-
-    for (int i = 0; i < n; i++) {
-        randomNumber[i] = (rand() % m) + 1;
-        cout << randomNumber[i] << endl;
+    for(int j =0; j < K, j++) {
+        for (int i = 0; i < n; i++) {
+            randomNumber[i] = (rand() % m) + 1;
+            cout << randomNumber[i] << endl;
+        }
     }
 
-
-    //getline(cin,isbn);
-
-
-    //boost::erase_all(isbn, "-");        //erase all dashes
 
 }
