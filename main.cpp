@@ -19,7 +19,7 @@
 
 using namespace std;
 
-vector<int> functions (string isbn){
+vector<int> calc_check (string isbn){
 
     int isbn_length = isbn.length();
     vector<int> arr(isbn_length, 0);
@@ -29,11 +29,7 @@ vector<int> functions (string isbn){
 
         arr[i] = arr[i] * 10 + (isbn[i] - 48);
     }
-    /*cout << "arr:" ;          //debug fct
-    for (i = 0; i < 12; i++) {
-        cout << arr[i] ;
 
-    }*/
     return arr;
 }
 
@@ -60,7 +56,7 @@ int intToAscii(int modulo) {
     return '0' + modulo;
 }
 
-void finalfunction (char modu, string isbn_raw){
+void add_check (char modu, string isbn_raw){
 
     if(isbn_raw.length() == 15){
 
@@ -87,14 +83,13 @@ int main()
    getline(cin,isbn);       //read ISBN from console
 
    isbn_raw = isbn;                //save original isbn for final output
-   //cout << "you entered:" << isbn_raw << endl;
    boost::erase_all(isbn, "-");        //erase all dashes
 
    int isbn_length = length(isbn);
 
-   while (isbn_length < 12 || isbn_length > 12){
+   while ((isbn_length < 12 || isbn_length > 12)||((isbn[0] != '9' || isbn[1] != '7' || !(isbn[2] == '9' || isbn[2] == '8')))){     //check all wrong inputs
 
-       cout << "isbn code is wrong size" << endl;
+       cout << "isbn code is wrong size or does not meet the required criteria for the first 3 digits" << endl;
        cout << "Please enter the ISBN code without any spaces:" << endl;
 
        getline(cin,isbn);       //read ISBN from console
@@ -104,23 +99,13 @@ int main()
 
    }
 
-    //while(isbn[1] != 9 && isbn[2] != 7 && (isbn[3] != 8 || isbn[3] != 9)){
-    while((isbn[1] != '9' || isbn[2] != '7' || isbn[3] != '9')){
 
-        cout << "isbn code is wrong size" << endl;
+    vector<int> arr = calc_check(isbn);        //convert string to array
 
-        getline(cin,isbn);       //read ISBN from console
-        isbn_raw = isbn;
-        boost::erase_all(isbn, "-");        //erase all dashes
-    }
+    int modulo = res(arr);                     //calculation of the check digit
 
+    char modu = intToAscii(modulo);             //conversion of check digit to char
 
-    vector<int> arr = functions(isbn);        //convert string to array
-
-    int modulo = res(arr);
-
-    char modu = intToAscii(modulo);
-
-    finalfunction(modu, isbn_raw);
+    add_check(modu, isbn_raw);              //
 
 }
