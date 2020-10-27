@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Rives/Desktop/PAD3_git/1.2/main.cpp
+C:/Users/Roger/Desktop/PAD3/main.cpp
 string
 -
 vector
@@ -26,7 +26,5 @@ boost/algorithm/string.hpp
 cmath
 -
 stdlib.h
--
-experimental/random
 -
 
