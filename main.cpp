@@ -23,8 +23,6 @@ int res(vector<int> vecISBN) {
 
     int i, res = 0, mod;
 
-
-
     for (i = 0; i < 12; i++) {
         res = res + (vecISBN[i] * (i + 1));
     }
