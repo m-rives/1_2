@@ -17,37 +17,7 @@
 #include <numeric>
 #include <stdlib.h>
 
-
 using namespace std;
-/*
-vector <int> calc2 (){
-
-
-
-    for (int j = 0; j < KK; j++) {
-
-        for (int i = 0; i < nn; i++) {
-            randomNumber2[i] = (rand() % mm) + 1;
-
-        }
-        sort(randomNumber2.begin(), randomNumber2.end());
-        for (int c = 0; c < randomNumber2.size(); c++) {
-
-            while (randomNumber2[c] == randomNumber2[c + 1]) {
-                ZZ++;
-                c++;
-
-            }
-
-        }
-        //cout << ZZ << endl;
-        //cout << "For group " << j + 1 << " there are " << ZZ << " matching birthdays." << endl;
-        amount2.push_back(ZZ);
-        ZZ = 0;
-
-
-    }
-}*/
 
 vector <int> calc (int K, int n, int m){
     int Z = 0;
