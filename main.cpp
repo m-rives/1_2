@@ -97,8 +97,7 @@ int main()
 
         vector <int> amount2 = calc (KK,nn,mm);
         sum2 = ((std::accumulate(amount2.begin(), amount2.end(), 0.0)));
-        cout << "" << endl;
-
     }
+    cout << "" << endl;
     cout << nn << " people are needed to fulfill the 50% requirement." << endl;
 }
