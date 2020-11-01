@@ -40,7 +40,7 @@ vector <int> calc (int K, int n, int m){        //function to get amount of coll
 
         }
         //cout << Z << endl;
-        cout << "For group " << j+1 << " there are " << Z << " matching birthdays." << endl;
+        //cout << "For group " << j+1 << " there are " << Z << " matching birthdays." << endl;
         amount.push_back(Z);
         Z = 0;
 
@@ -92,12 +92,13 @@ int main()
     vector <int> randomNumber2(nn,0);
     vector <int> amount2(KK,0);
 
-    while (sum2 < (ZM +1)) {        //increase number of people until criteria is met
+    while (sum2 <= (ZM)) {        //increase number of people until criteria is met
         nn++;
 
         vector <int> amount2 = calc (KK,nn,mm);
         sum2 = ((std::accumulate(amount2.begin(), amount2.end(), 0.0)));
         cout << "" << endl;
-        cout << nn << " people are neeede to fulfill the 50% requirement." << endl;
+
     }
+    cout << nn << " people are needed to fulfill the 50% requirement." << endl;
 }
