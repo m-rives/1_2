@@ -1,0 +1,24 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/bin/ld.exe: cannot find C:/Program: No such file or directory
+C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/bin/ld.exe: cannot find Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/bin/ld.exe: cannot find C:/Program: No such file or directory
+C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/bin/ld.exe: cannot find Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/lib/../lib/default-manifest.o: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+
+

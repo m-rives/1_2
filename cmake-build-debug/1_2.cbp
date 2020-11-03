@@ -8,82 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Roger/Desktop/PAD3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1_2">
-				<Option output="C:/Users/Roger/Desktop/PAD3/cmake-build-debug/1_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Roger/Desktop/PAD3/cmake-build-debug"/>
+				<Option output="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/1_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include/c++/10.1.1"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include/c++/10.1.1/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include/c++/10.1.1/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 1_2"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 1_2"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="1_2/fast">
-				<Option output="C:/Users/Roger/Desktop/PAD3/cmake-build-debug/1_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Roger/Desktop/PAD3/cmake-build-debug"/>
+				<Option output="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/1_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include/c++/10.1.1"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include/c++/10.1.1/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include/c++/10.1.1/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../include"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.1.1/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 1_2/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 1_2/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Roger/Desktop/PAD3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Roger/Desktop/PAD3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Roger/Desktop/PAD3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~2/MINGW-~1.1_X/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Roger/Desktop/PAD3/main.cpp">
+		<Unit filename="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/main.cpp">
 			<Option target="1_2"/>
 		</Unit>
-		<Unit filename="C:/Users/Roger/Desktop/PAD3/CMakeLists.txt">
+		<Unit filename="C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -4,18 +4,14 @@
 
 //Mattia Huber Oberfrank    01417215
 //Marc Rives                01517985
+//David Fürhabter           11831250
 
 
 #include <string>
 #include <vector>
 #include <iostream>
-#include <sstream>
 #include <ostream>
-#include <sstream>
-#include <algorithm>
-//#include <boost/algorithm/string.hpp>/
-#include <cmath>
-#include <stdlib.h>
+
 
 using namespace std;
 
@@ -93,9 +89,9 @@ int main() {
     int modulo = res(vecISBN);                     //calculation of the check digit
 
     char modu = intToAscii(modulo);             //conversion of check digit to char
-    char X;
-    if(modu == 10){
-        modu = X;
+
+    if(modulo == 10){
+        modu = 'X';
     }
-    add_check(modu, isbn_raw);              //
+    add_check(modu, isbn_raw);
 }

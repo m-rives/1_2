@@ -1,3 +1,3 @@
-C:/Users/Roger/Desktop/PAD3/cmake-build-debug/CMakeFiles/1_2.dir
-C:/Users/Roger/Desktop/PAD3/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Roger/Desktop/PAD3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/CMakeFiles/1_2.dir
+C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
