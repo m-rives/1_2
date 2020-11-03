@@ -4,6 +4,7 @@
 
 //Mattia Huber Oberfrank    01417215
 //Marc Rives                01517985
+//David Fürhabter           11831250
 
 
 #include <string>
@@ -21,7 +22,7 @@ using namespace std;
 
 vector <int> calc (int K, int n, int m){        //function to get amount of collisions in birthdays
     int Z = 0;
-    vector <int> amount(K,0);
+    vector <int> amount(1,0);
     vector <int> randomNumber(n,0);
     for(int j =0; j < K; j++) {                 //for loop through all groups
 
@@ -67,7 +68,7 @@ int main()
     cin >> K;
     vector <int> amount = calc(K,n,m);
 
-    double mean = ((std::accumulate(amount.begin(), amount.end(), 0.0))/(K*n))*100;     //calculate average/mean
+    double mean = ((std::accumulate(amount.begin(), amount.end(), 0.0))/(K))*100;     //calculate average/mean
     cout << "On average " << mean << "% of "<< n << " people in the given " << K << " Groups have their Birthdays on the same day." <<endl;
     int sum = (std::accumulate(amount.begin(), amount.end(), 0.0));                     //sum off all cases
     cout << "There were " << sum << " matching cases." <<endl;
@@ -88,14 +89,14 @@ int main()
     }
     double ZM = (KK/2);
     double sum2 = 0.0;
-    int nn = 5;
+    int nn = 1;
     vector <int> randomNumber2(nn,0);
     vector <int> amount2(KK,0);
 
     while (sum2 <= (ZM)) {        //increase number of people until criteria is met
         nn++;
 
-        vector <int> amount2 = calc (KK,nn,mm);
+        amount2 = calc (KK,nn,mm);
         sum2 = ((std::accumulate(amount2.begin(), amount2.end(), 0.0)));
     }
     cout << "" << endl;
