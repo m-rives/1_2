@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\Ue
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/1_2.dir/all
+all: CMakeFiles/UebungenGit.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/1_2.dir/clean
+clean: CMakeFiles/UebungenGit.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1_2.dir
+# Target rules for target CMakeFiles/UebungenGit.dir
 
 # All Build rule for target.
-CMakeFiles/1_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_2.dir\build.make CMakeFiles/1_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_2.dir\build.make CMakeFiles/1_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target 1_2"
-.PHONY : CMakeFiles/1_2.dir/all
+CMakeFiles/UebungenGit.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target UebungenGit"
+.PHONY : CMakeFiles/UebungenGit.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/1_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_2.dir/all
+CMakeFiles/UebungenGit.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/UebungenGit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/1_2.dir/rule
+.PHONY : CMakeFiles/UebungenGit.dir/rule
 
 # Convenience name for target.
-1_2: CMakeFiles/1_2.dir/rule
+UebungenGit: CMakeFiles/UebungenGit.dir/rule
 
-.PHONY : 1_2
+.PHONY : UebungenGit
 
 # clean rule for target.
-CMakeFiles/1_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_2.dir\build.make CMakeFiles/1_2.dir/clean
-.PHONY : CMakeFiles/1_2.dir/clean
+CMakeFiles/UebungenGit.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/clean
+.PHONY : CMakeFiles/UebungenGit.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

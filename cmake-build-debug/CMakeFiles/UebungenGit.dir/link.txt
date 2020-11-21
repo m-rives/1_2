@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\UebungenGit.dir/objects.a
+C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\ar.exe cr CMakeFiles\UebungenGit.dir/objects.a @CMakeFiles\UebungenGit.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\UebungenGit.dir/objects.a -Wl,--no-whole-archive  -o UebungenGit.exe -Wl,--out-implib,libUebungenGit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\UebungenGit.dir\linklibs.rsp
