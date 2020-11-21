@@ -143,8 +143,11 @@ Graph readgraphfromfile (string infilename, bool directed)
 // Write directed or undirected graph to file
 void writegraphtofile (string outfilename, Graph g)
 {
-  // TO BE COMPLETED
-  // ...
+  ofstream outfile;
+  outfile.open(outfilename);
+  printgraph(outfile, g);
+  outfile.close();
+
   return;
 }
 
