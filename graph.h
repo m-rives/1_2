@@ -11,8 +11,8 @@ class Graph {
   private:
     int nodecount;               // Node count (sufficient to define node set)
     bool directed;               // true for directed, false for undirected
-    // TO BE COMPLETED: Data structure for adjacency matrix
-    // ...
+    vector<vector<bool>> adjmatrix;
+
   public:
     Graph (int nodecount, bool directed); 
       // Constructor; node count or directedness cannot be changed later

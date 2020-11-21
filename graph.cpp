@@ -7,10 +7,13 @@ using namespace std;
 // Constructor; node count or directedness cannot be changed later
 // Graph is constructed with empty edge set
 Graph::Graph (int nodecount, bool directed) 
-    : nodecount (nodecount), directed (directed)
-{
-  // TO BE COMPLETED
-  // ...
+    : nodecount (nodecount), directed (directed) {
+
+    vector<bool> tempvec(nodecount, false);
+    for (int i = 0; i < nodecount; i++) {
+        adjmatrix.push_back(tempvec);
+    }
+
 }
 
 // Getter method
@@ -36,17 +39,23 @@ bool Graph::is_node (int i) const
 list <int> Graph::get_edges (int i) const
 {
   list <int> adjlist_i;
-  // TO BE COMPLETED
-  // ...
+
+  for (int j=0; j<nodecount; j++){
+      if (adjmatrix[i][j])
+        adjlist_i.push_back(j);
+  }
+
   return adjlist_i;
 }
 
 // Check whether edge exists
 bool Graph::is_edge (int i, int j) const
 {
-  // TO BE COMPLETED
-  // ...
-  return false;
+  bool exists;
+
+  exists = adjmatrix[i][j];
+
+  return exists;
 }
 
 // Insert (directed or undirected) edge
@@ -58,8 +67,12 @@ bool Graph::insert_edge (int i, int j)
   if (! is_node (j)) return false;
   // Check if edge already exists; if so, do nothing
   if (is_edge (i, j)) return false;
-  // TO BE COMPLETED
-  // ...
+
+  adjmatrix[i][j] = true;
+
+  // if undirected insert other direction
+  if (!directed) adjmatrix[j][i] = true;
+
   return true;
 }
 
@@ -69,8 +82,12 @@ bool Graph::remove_edge (int i, int j)
 {
   // If edge does not exist, do nothing
   if (! is_edge (i, j)) return false;
-  // TO BE COMPLETED
-  // ...
+
+  adjmatrix[i][j] = false;
+
+  // if undirected remove other direction
+   if (!directed) adjmatrix[j][i] = false;
+
   return true;
 }
 
