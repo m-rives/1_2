@@ -1,12 +1,14 @@
 #include <iostream>
 #include <string>
 #include "graph.h"
+#include "graphsearch.h"
 #include "user_io.h"
 
 using namespace std;
 
 int main (int argc, char *argv[])
 {
+  // Collect input for graph initialisation
   bool directed = userinput_yesno ("Directed graph? ");
   string infilename = userinput ("Input file for graph (ENTER for empty): ");
   Graph g (0, false);
@@ -17,6 +19,9 @@ int main (int argc, char *argv[])
   else {
     g = readgraphfromfile (infilename, directed);
   }
+  cout << endl;
+  // Loop for entering modifications of initial graph
+  cout << "Modify graph by user input" << endl;
   while (true) {
     printgraph (cout, g);
     string inputline = userinput ("(i)nsert/(r)emove edge/(q)uit?");
@@ -41,7 +46,25 @@ int main (int argc, char *argv[])
     }
     else cout << "Input not recognised" << endl;
   }
-  string outfilename = userinput ("Output file for graph: ");
-  writegraphtofile (outfilename, g);
+  cout << endl;
+
+  // Breadth-first search
+  int s = userinput_int ("Start node for breadth-first search:");
+  vector <int> p, d;
+  breadthfirstsearch (g, s, p, d);
+  cout << "Result of breadth-first search: " << endl;
+  cout << "p = (";
+  for (int i=0; i<p.size(); ++i) {
+    if (i>0) cout << ", ";
+    cout << p [i];
+  }
+  cout << ")" << endl;
+  cout << "d = (";
+  for (int i=0; i<d.size(); ++i) {
+    if (i>0) cout << ", ";
+    cout << d [i];
+  }
+  cout << ")" << endl;
+
   return 0;
 }

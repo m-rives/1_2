@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "10.1.1")
+set(CMAKE_CXX_COMPILER_VERSION "8.1.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")
@@ -19,11 +19,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/bin/ld.exe")
+set(CMAKE_AR "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -57,7 +57,7 @@ set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
 # Save compiler ABI information.
-set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
+set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
 set(CMAKE_CXX_COMPILER_ABI "")
 set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
 
@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/include/c++/10.1.1;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/include/c++/10.1.1/i686-w64-mingw32;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/include/c++/10.1.1/backward;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/lib/gcc/i686-w64-mingw32/10.1.1/include;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/include;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/lib/gcc/i686-w64-mingw32/10.1.1/include-fixed;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/i686-w64-mingw32/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;mcfgthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/lib/gcc/i686-w64-mingw32/10.1.1;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/lib/gcc;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/i686-w64-mingw32/lib;C:/Program Files/mingw-w64/mingw-w64-gcc-mcf_20200605_10.1.1_x86_b9ab055b729540e975f4d948f818dfdd720e591e/mingw32/lib")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib/gcc;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib;C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

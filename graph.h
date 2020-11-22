@@ -10,9 +10,8 @@ using namespace std;
 class Graph {
   private:
     int nodecount;               // Node count (sufficient to define node set)
+    vector <list <int>> adjlist; // Adjacency list
     bool directed;               // true for directed, false for undirected
-    vector<vector<bool>> adjmatrix;
-
   public:
     Graph (int nodecount, bool directed); 
       // Constructor; node count or directedness cannot be changed later
@@ -37,6 +36,6 @@ void printgraph (ostream &os, Graph g);
 Graph readgraphfromfile (string infilename, bool directed);
 
 // Write directed or undirected graph to file
-void writegraphtofile (string outfilename, Graph g);
+// void writegraphtofile (string outfilename, Graph g);
 
 #endif // #ifndef GRAPH_H

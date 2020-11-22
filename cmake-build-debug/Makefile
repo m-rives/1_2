@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit"
+CMAKE_SOURCE_DIR = C:\Users\CLION\Desktop\Pad3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\CLION\Desktop\Pad3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\Ue
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named UebungenGit
+# Target rules for targets named Pad3
 
 # Build rule for target.
-UebungenGit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UebungenGit
-.PHONY : UebungenGit
+Pad3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Pad3
+.PHONY : Pad3
 
 # fast build rule for target.
-UebungenGit/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/build
-.PHONY : UebungenGit/fast
+Pad3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/build
+.PHONY : Pad3/fast
 
 graph.obj: graph.cpp.obj
 
@@ -148,7 +148,7 @@ graph.obj: graph.cpp.obj
 
 # target to build an object file
 graph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/graph.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/graph.cpp.obj
 .PHONY : graph.cpp.obj
 
 graph.i: graph.cpp.i
@@ -157,7 +157,7 @@ graph.i: graph.cpp.i
 
 # target to preprocess a source file
 graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/graph.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/graph.cpp.i
 .PHONY : graph.cpp.i
 
 graph.s: graph.cpp.s
@@ -166,8 +166,35 @@ graph.s: graph.cpp.s
 
 # target to generate assembly for a file
 graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/graph.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/graph.cpp.s
 .PHONY : graph.cpp.s
+
+graphsearch.obj: graphsearch.cpp.obj
+
+.PHONY : graphsearch.obj
+
+# target to build an object file
+graphsearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/graphsearch.cpp.obj
+.PHONY : graphsearch.cpp.obj
+
+graphsearch.i: graphsearch.cpp.i
+
+.PHONY : graphsearch.i
+
+# target to preprocess a source file
+graphsearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/graphsearch.cpp.i
+.PHONY : graphsearch.cpp.i
+
+graphsearch.s: graphsearch.cpp.s
+
+.PHONY : graphsearch.s
+
+# target to generate assembly for a file
+graphsearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/graphsearch.cpp.s
+.PHONY : graphsearch.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -175,7 +202,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -184,7 +211,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -193,7 +220,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 user_io.obj: user_io.cpp.obj
@@ -202,7 +229,7 @@ user_io.obj: user_io.cpp.obj
 
 # target to build an object file
 user_io.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/user_io.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/user_io.cpp.obj
 .PHONY : user_io.cpp.obj
 
 user_io.i: user_io.cpp.i
@@ -211,7 +238,7 @@ user_io.i: user_io.cpp.i
 
 # target to preprocess a source file
 user_io.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/user_io.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/user_io.cpp.i
 .PHONY : user_io.cpp.i
 
 user_io.s: user_io.cpp.s
@@ -220,7 +247,7 @@ user_io.s: user_io.cpp.s
 
 # target to generate assembly for a file
 user_io.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UebungenGit.dir\build.make CMakeFiles/UebungenGit.dir/user_io.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pad3.dir\build.make CMakeFiles/Pad3.dir/user_io.cpp.s
 .PHONY : user_io.cpp.s
 
 # Help Target
@@ -231,10 +258,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... UebungenGit
+	@echo ... Pad3
 	@echo ... graph.obj
 	@echo ... graph.i
 	@echo ... graph.s
+	@echo ... graphsearch.obj
+	@echo ... graphsearch.i
+	@echo ... graphsearch.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -7,13 +7,9 @@ using namespace std;
 // Constructor; node count or directedness cannot be changed later
 // Graph is constructed with empty edge set
 Graph::Graph (int nodecount, bool directed) 
-    : nodecount (nodecount), directed (directed) {
-
-    vector<bool> tempvec(nodecount, false);
-    for (int i = 0; i < nodecount; i++) {
-        adjmatrix.push_back(tempvec);
-    }
-
+    : nodecount (nodecount), directed (directed)
+{
+  adjlist = vector <list <int>> (nodecount);
 }
 
 // Getter method
@@ -38,24 +34,18 @@ bool Graph::is_node (int i) const
 // Getter method for outgoing edges from a node
 list <int> Graph::get_edges (int i) const
 {
-  list <int> adjlist_i;
-
-  for (int j=0; j<nodecount; j++){
-      if (adjmatrix[i][j])
-        adjlist_i.push_back(j);
-  }
-
-  return adjlist_i;
+  if (! is_node (i)) return {};
+  return adjlist [i];
 }
 
 // Check whether edge exists
 bool Graph::is_edge (int i, int j) const
 {
-  bool exists;
-
-  exists = adjmatrix[i][j];
-
-  return exists;
+  if (! is_node (i)) return false;
+  for (auto k : adjlist [i]) {
+    if (j == k) return true;
+  }
+  return false;
 }
 
 // Insert (directed or undirected) edge
@@ -67,12 +57,23 @@ bool Graph::insert_edge (int i, int j)
   if (! is_node (j)) return false;
   // Check if edge already exists; if so, do nothing
   if (is_edge (i, j)) return false;
-
-  adjmatrix[i][j] = true;
-
-  // if undirected insert other direction
-  if (!directed) adjmatrix[j][i] = true;
-
+  // Find insertion position in adjacency list of node i
+  auto k = adjlist [i].begin (); // Iterator
+  while (k != adjlist [i].end () && *k < j) {
+    ++k;
+  }
+  // Insert node j at appropriate position in node i's adjacency list
+  adjlist [i].insert (k, j);
+  // For a directed graph we're done ...
+  if (directed) return true;
+  // ... but for an undirected graph repeat the same for node j
+  // Find insertion position in adjacency list of node j
+  k = adjlist [j].begin (); // Iterator
+  while (k != adjlist [j].end () && *k < i) {
+    ++k;
+  }
+  // Insert node i at appropriate position in node j's adjacency list
+  adjlist [j].insert (k, i);
   return true;
 }
 
@@ -82,12 +83,23 @@ bool Graph::remove_edge (int i, int j)
 {
   // If edge does not exist, do nothing
   if (! is_edge (i, j)) return false;
-
-  adjmatrix[i][j] = false;
-
-  // if undirected remove other direction
-   if (!directed) adjmatrix[j][i] = false;
-
+  // Find edge in outgoing adjacency list of node i
+  auto k = adjlist [i].begin ();
+  while (*k < j) {
+    ++k;
+  }
+  // Remove edge
+  adjlist [i].erase (k);
+  // For a directed graph we're done ...
+  if (directed) return true;
+  // ... but for an undirected graph repeat the same for node j
+  // Find edge in outgoing adjacency list of node j
+  k = adjlist [j].begin ();
+  while (*k < i) {
+    ++k;
+  }
+  // Remove edge
+  adjlist [j].erase (k);
   return true;
 }
 
@@ -138,16 +150,5 @@ Graph readgraphfromfile (string infilename, bool directed)
   } while (true);
   infile.close();
   return retval;
-}
-
-// Write directed or undirected graph to file
-void writegraphtofile (string outfilename, Graph g)
-{
-  ofstream outfile;
-  outfile.open(outfilename);
-  printgraph(outfile, g);
-  outfile.close();
-
-  return;
 }
 
