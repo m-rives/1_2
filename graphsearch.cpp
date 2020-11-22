@@ -10,7 +10,7 @@ using namespace std;
 // Write out steps to cout
 void breadthfirstsearch (Graph g, int s, vector <int> &p, vector <int> &d)
 {
-  cout << "Steps of breadth-first search" << endl;
+  cout << "Steps of depth-first search" << endl;
   int n = g.get_nodecount ();
   // Initialise arrays p and d, and FIFO queue for nodes to be processed
   p.clear (); p.insert (p.begin(), n, -1);
@@ -21,8 +21,9 @@ void breadthfirstsearch (Graph g, int s, vector <int> &p, vector <int> &d)
   q.push (s);
   cout << "Initialising: d[" << s << "]=0, p[" << s << "]=" << s << endl;
   // Main loop
+  int i = q.front();
   while (!q.empty()) {
-    int i = q.front();
+
     cout << "Processing node " << i << " from queue" << endl;
     // Loop over outgoing edges of current node
     for (int j : g.get_edges (i)) {
@@ -35,6 +36,7 @@ void breadthfirstsearch (Graph g, int s, vector <int> &p, vector <int> &d)
         cout << "d[" << j << "]=" << d[j] << ", "
              << "p[" << j << "]=" << p[j] << ", "
              << "appending node " << j << " to queue" << endl;
+            i++;
       }
       else {
         cout << "Node " << j << " visited before, no change" << endl;

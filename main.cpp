@@ -49,10 +49,10 @@ int main (int argc, char *argv[])
   cout << endl;
 
   // Breadth-first search
-  int s = userinput_int ("Start node for breadth-first search:");
+  int s = userinput_int ("Start node for depth-first search:");
   vector <int> p, d;
   breadthfirstsearch (g, s, p, d);
-  cout << "Result of breadth-first search: " << endl;
+  cout << "Result of depth-first search: " << endl;
   cout << "p = (";
   for (int i=0; i<p.size(); ++i) {
     if (i>0) cout << ", ";
