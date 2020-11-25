@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit"
+CMAKE_SOURCE_DIR = C:\Users\Roger\Desktop\PAD3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Roger\Desktop\PAD3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/UebungenGit.dir/depend.make
@@ -79,44 +79,44 @@ include CMakeFiles/UebungenGit.dir/flags.make
 CMakeFiles/UebungenGit.dir/graph.cpp.obj: CMakeFiles/UebungenGit.dir/flags.make
 CMakeFiles/UebungenGit.dir/graph.cpp.obj: CMakeFiles/UebungenGit.dir/includes_CXX.rsp
 CMakeFiles/UebungenGit.dir/graph.cpp.obj: ../graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UebungenGit.dir/graph.cpp.obj"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UebungenGit.dir\graph.cpp.obj -c "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\graph.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UebungenGit.dir/graph.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UebungenGit.dir\graph.cpp.obj -c C:\Users\Roger\Desktop\PAD3\graph.cpp
 
 CMakeFiles/UebungenGit.dir/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UebungenGit.dir/graph.cpp.i"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\graph.cpp" > CMakeFiles\UebungenGit.dir\graph.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roger\Desktop\PAD3\graph.cpp > CMakeFiles\UebungenGit.dir\graph.cpp.i
 
 CMakeFiles/UebungenGit.dir/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UebungenGit.dir/graph.cpp.s"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\graph.cpp" -o CMakeFiles\UebungenGit.dir\graph.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roger\Desktop\PAD3\graph.cpp -o CMakeFiles\UebungenGit.dir\graph.cpp.s
 
 CMakeFiles/UebungenGit.dir/main.cpp.obj: CMakeFiles/UebungenGit.dir/flags.make
 CMakeFiles/UebungenGit.dir/main.cpp.obj: CMakeFiles/UebungenGit.dir/includes_CXX.rsp
 CMakeFiles/UebungenGit.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UebungenGit.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UebungenGit.dir\main.cpp.obj -c "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/UebungenGit.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UebungenGit.dir\main.cpp.obj -c C:\Users\Roger\Desktop\PAD3\main.cpp
 
 CMakeFiles/UebungenGit.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UebungenGit.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\main.cpp" > CMakeFiles\UebungenGit.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roger\Desktop\PAD3\main.cpp > CMakeFiles\UebungenGit.dir\main.cpp.i
 
 CMakeFiles/UebungenGit.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UebungenGit.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\main.cpp" -o CMakeFiles\UebungenGit.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roger\Desktop\PAD3\main.cpp -o CMakeFiles\UebungenGit.dir\main.cpp.s
 
 CMakeFiles/UebungenGit.dir/user_io.cpp.obj: CMakeFiles/UebungenGit.dir/flags.make
 CMakeFiles/UebungenGit.dir/user_io.cpp.obj: CMakeFiles/UebungenGit.dir/includes_CXX.rsp
 CMakeFiles/UebungenGit.dir/user_io.cpp.obj: ../user_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UebungenGit.dir/user_io.cpp.obj"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UebungenGit.dir\user_io.cpp.obj -c "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\user_io.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/UebungenGit.dir/user_io.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UebungenGit.dir\user_io.cpp.obj -c C:\Users\Roger\Desktop\PAD3\user_io.cpp
 
 CMakeFiles/UebungenGit.dir/user_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UebungenGit.dir/user_io.cpp.i"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\user_io.cpp" > CMakeFiles\UebungenGit.dir\user_io.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roger\Desktop\PAD3\user_io.cpp > CMakeFiles\UebungenGit.dir\user_io.cpp.i
 
 CMakeFiles/UebungenGit.dir/user_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UebungenGit.dir/user_io.cpp.s"
-	C:\PROGRA~1\MINGW-~2\MINGW-~1.1_X\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\user_io.cpp" -o CMakeFiles\UebungenGit.dir\user_io.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roger\Desktop\PAD3\user_io.cpp -o CMakeFiles\UebungenGit.dir\user_io.cpp.s
 
 # Object files for target UebungenGit
 UebungenGit_OBJECTS = \
@@ -134,7 +134,7 @@ UebungenGit.exe: CMakeFiles/UebungenGit.dir/build.make
 UebungenGit.exe: CMakeFiles/UebungenGit.dir/linklibs.rsp
 UebungenGit.exe: CMakeFiles/UebungenGit.dir/objects1.rsp
 UebungenGit.exe: CMakeFiles/UebungenGit.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable UebungenGit.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable UebungenGit.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\UebungenGit.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +147,6 @@ CMakeFiles/UebungenGit.dir/clean:
 .PHONY : CMakeFiles/UebungenGit.dir/clean
 
 CMakeFiles/UebungenGit.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit" "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit" "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug" "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug" "C:\Users\Rives\OneDrive\StudiumRives\Semester5\PAD 3\WS20\UebungenGit\cmake-build-debug\CMakeFiles\UebungenGit.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Roger\Desktop\PAD3 C:\Users\Roger\Desktop\PAD3 C:\Users\Roger\Desktop\PAD3\cmake-build-debug C:\Users\Roger\Desktop\PAD3\cmake-build-debug C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles\UebungenGit.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UebungenGit.dir/depend
 

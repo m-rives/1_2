@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit
+# Install script for directory: C:/Users/Roger/Desktop/PAD3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Roger/Desktop/PAD3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

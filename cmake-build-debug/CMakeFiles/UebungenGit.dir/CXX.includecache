@@ -6,21 +6,43 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/graph.cpp
+C:/Users/Roger/Desktop/PAD3/graph.cpp
 graph.h
-C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/graph.h
+C:/Users/Roger/Desktop/PAD3/graph.h
 fstream
 -
 cstdio
 -
 
-C:/Users/Rives/OneDrive/StudiumRives/Semester5/PAD 3/WS20/UebungenGit/graph.h
+C:/Users/Roger/Desktop/PAD3/graph.h
 iostream
 -
 vector
 -
 list
 -
+string
+-
+
+C:/Users/Roger/Desktop/PAD3/main.cpp
+iostream
+-
+string
+-
+graph.h
+C:/Users/Roger/Desktop/PAD3/graph.h
+user_io.h
+C:/Users/Roger/Desktop/PAD3/user_io.h
+
+C:/Users/Roger/Desktop/PAD3/user_io.cpp
+user_io.h
+C:/Users/Roger/Desktop/PAD3/user_io.h
+iostream
+-
+cstdio
+-
+
+C:/Users/Roger/Desktop/PAD3/user_io.h
 string
 -
 
