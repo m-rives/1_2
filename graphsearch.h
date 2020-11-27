@@ -10,4 +10,8 @@ using namespace std;
 // Write out steps to cout
 void breadthfirstsearch (Graph g, int s, vector <int> &p, vector <int> &d);
 
+void depthfirstsearch(Graph g, int s, vector <int> &p);
+
+// recursive subtree-search used in depth-first search
+void subtreesearch(Graph g, int i, vector <int> &p);
 #endif // #ifndef GRAPHSEARCH_H

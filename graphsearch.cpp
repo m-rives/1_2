@@ -5,9 +5,7 @@
 
 using namespace std;
 
-// Breadth-first search in a graph, with start node s
-// Return results in vectors p (for parent nodes) and d (for distances)
-// Write out steps to cout
+/*
 void breadthfirstsearch (Graph g, int s, vector <int> &p, vector <int> &d)
 {
   cout << "Steps of depth-first search" << endl;
@@ -47,4 +45,49 @@ void breadthfirstsearch (Graph g, int s, vector <int> &p, vector <int> &d)
   cout << endl;
   return;
 }
+*/
 
+void depthfirstsearch(Graph g, int s, vector <int> &p)
+{
+    cout << "Steps of depth-first search" << endl;
+    int n = g.get_nodecount();
+
+    //initialise array p
+    p.clear();
+    p.insert(p.begin(), n, -1);
+    p[s] = s;
+
+    cout << "Initialising: p[" << s << "]=" << s << endl;
+
+    // start recursive depth-first search from start node s
+    subtreesearch(g, s, p);
+
+    cout << endl;
+    return;
+}
+
+// recursive subtree-search used in depth-first search
+// algorithm as stated in documents of lecture
+void subtreesearch(Graph g, int i, vector <int> &p)
+{
+    cout << "Start tree search at node " << i << endl;
+
+    // loop over outgoing edges of current node
+    for (int j : g.get_edges(i)) {
+        cout << "Following edge (" << i << ", " << j << "): ";
+
+        // if current node was not visited before, visit it immediately
+        if (p[j] == -1) {
+            cout << "Node " << j << " not visited before; ";
+            p[j] = i;
+            cout << "p[" << j << "]=" << p[j] << endl;
+            subtreesearch(g, j, p);
+        }
+        else
+            cout << "Node " << j << " visited before, no change" << endl;
+    }
+
+    cout << "Tree search at node " << i << " completed" << endl;
+
+    return;
+}

@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\CLION\Desktop\Pad3
+CMAKE_SOURCE_DIR = C:\Users\Roger\Desktop\PAD3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\CLION\Desktop\Pad3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Roger\Desktop\PAD3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Pad3.dir/depend.make
@@ -79,58 +79,58 @@ include CMakeFiles/Pad3.dir/flags.make
 CMakeFiles/Pad3.dir/graph.cpp.obj: CMakeFiles/Pad3.dir/flags.make
 CMakeFiles/Pad3.dir/graph.cpp.obj: CMakeFiles/Pad3.dir/includes_CXX.rsp
 CMakeFiles/Pad3.dir/graph.cpp.obj: ../graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pad3.dir/graph.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\graph.cpp.obj -c C:\Users\CLION\Desktop\Pad3\graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Pad3.dir/graph.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\graph.cpp.obj -c C:\Users\Roger\Desktop\PAD3\graph.cpp
 
 CMakeFiles/Pad3.dir/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pad3.dir/graph.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\CLION\Desktop\Pad3\graph.cpp > CMakeFiles\Pad3.dir\graph.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roger\Desktop\PAD3\graph.cpp > CMakeFiles\Pad3.dir\graph.cpp.i
 
 CMakeFiles/Pad3.dir/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pad3.dir/graph.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\CLION\Desktop\Pad3\graph.cpp -o CMakeFiles\Pad3.dir\graph.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roger\Desktop\PAD3\graph.cpp -o CMakeFiles\Pad3.dir\graph.cpp.s
 
 CMakeFiles/Pad3.dir/graphsearch.cpp.obj: CMakeFiles/Pad3.dir/flags.make
 CMakeFiles/Pad3.dir/graphsearch.cpp.obj: CMakeFiles/Pad3.dir/includes_CXX.rsp
 CMakeFiles/Pad3.dir/graphsearch.cpp.obj: ../graphsearch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pad3.dir/graphsearch.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\graphsearch.cpp.obj -c C:\Users\CLION\Desktop\Pad3\graphsearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Pad3.dir/graphsearch.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\graphsearch.cpp.obj -c C:\Users\Roger\Desktop\PAD3\graphsearch.cpp
 
 CMakeFiles/Pad3.dir/graphsearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pad3.dir/graphsearch.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\CLION\Desktop\Pad3\graphsearch.cpp > CMakeFiles\Pad3.dir\graphsearch.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roger\Desktop\PAD3\graphsearch.cpp > CMakeFiles\Pad3.dir\graphsearch.cpp.i
 
 CMakeFiles/Pad3.dir/graphsearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pad3.dir/graphsearch.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\CLION\Desktop\Pad3\graphsearch.cpp -o CMakeFiles\Pad3.dir\graphsearch.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roger\Desktop\PAD3\graphsearch.cpp -o CMakeFiles\Pad3.dir\graphsearch.cpp.s
 
 CMakeFiles/Pad3.dir/main.cpp.obj: CMakeFiles/Pad3.dir/flags.make
 CMakeFiles/Pad3.dir/main.cpp.obj: CMakeFiles/Pad3.dir/includes_CXX.rsp
 CMakeFiles/Pad3.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pad3.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\main.cpp.obj -c C:\Users\CLION\Desktop\Pad3\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pad3.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\main.cpp.obj -c C:\Users\Roger\Desktop\PAD3\main.cpp
 
 CMakeFiles/Pad3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pad3.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\CLION\Desktop\Pad3\main.cpp > CMakeFiles\Pad3.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roger\Desktop\PAD3\main.cpp > CMakeFiles\Pad3.dir\main.cpp.i
 
 CMakeFiles/Pad3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pad3.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\CLION\Desktop\Pad3\main.cpp -o CMakeFiles\Pad3.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roger\Desktop\PAD3\main.cpp -o CMakeFiles\Pad3.dir\main.cpp.s
 
 CMakeFiles/Pad3.dir/user_io.cpp.obj: CMakeFiles/Pad3.dir/flags.make
 CMakeFiles/Pad3.dir/user_io.cpp.obj: CMakeFiles/Pad3.dir/includes_CXX.rsp
 CMakeFiles/Pad3.dir/user_io.cpp.obj: ../user_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pad3.dir/user_io.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\user_io.cpp.obj -c C:\Users\CLION\Desktop\Pad3\user_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Pad3.dir/user_io.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Pad3.dir\user_io.cpp.obj -c C:\Users\Roger\Desktop\PAD3\user_io.cpp
 
 CMakeFiles/Pad3.dir/user_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pad3.dir/user_io.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\CLION\Desktop\Pad3\user_io.cpp > CMakeFiles\Pad3.dir\user_io.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Roger\Desktop\PAD3\user_io.cpp > CMakeFiles\Pad3.dir\user_io.cpp.i
 
 CMakeFiles/Pad3.dir/user_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pad3.dir/user_io.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\CLION\Desktop\Pad3\user_io.cpp -o CMakeFiles\Pad3.dir\user_io.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Roger\Desktop\PAD3\user_io.cpp -o CMakeFiles\Pad3.dir\user_io.cpp.s
 
 # Object files for target Pad3
 Pad3_OBJECTS = \
@@ -150,7 +150,7 @@ Pad3.exe: CMakeFiles/Pad3.dir/build.make
 Pad3.exe: CMakeFiles/Pad3.dir/linklibs.rsp
 Pad3.exe: CMakeFiles/Pad3.dir/objects1.rsp
 Pad3.exe: CMakeFiles/Pad3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Pad3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Pad3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Pad3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ CMakeFiles/Pad3.dir/clean:
 .PHONY : CMakeFiles/Pad3.dir/clean
 
 CMakeFiles/Pad3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\CLION\Desktop\Pad3 C:\Users\CLION\Desktop\Pad3 C:\Users\CLION\Desktop\Pad3\cmake-build-debug C:\Users\CLION\Desktop\Pad3\cmake-build-debug C:\Users\CLION\Desktop\Pad3\cmake-build-debug\CMakeFiles\Pad3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Roger\Desktop\PAD3 C:\Users\Roger\Desktop\PAD3 C:\Users\Roger\Desktop\PAD3\cmake-build-debug C:\Users\Roger\Desktop\PAD3\cmake-build-debug C:\Users\Roger\Desktop\PAD3\cmake-build-debug\CMakeFiles\Pad3.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Pad3.dir/depend
 

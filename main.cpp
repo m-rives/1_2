@@ -51,7 +51,7 @@ int main (int argc, char *argv[])
   // Breadth-first search
   int s = userinput_int ("Start node for depth-first search:");
   vector <int> p, d;
-  breadthfirstsearch (g, s, p, d);
+  depthfirstsearch (g, s, p);
   cout << "Result of depth-first search: " << endl;
   cout << "p = (";
   for (int i=0; i<p.size(); ++i) {
@@ -59,12 +59,5 @@ int main (int argc, char *argv[])
     cout << p [i];
   }
   cout << ")" << endl;
-  cout << "d = (";
-  for (int i=0; i<d.size(); ++i) {
-    if (i>0) cout << ", ";
-    cout << d [i];
-  }
-  cout << ")" << endl;
-
   return 0;
 }
