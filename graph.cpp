@@ -6,12 +6,12 @@ using namespace std;
 
 // Constructor; node count or directedness cannot be changed later
 // Graph is constructed with empty edge set
-Graph::Graph (int nodecount, bool directed) 
+Graph::Graph (int nodecount, bool directed)
     : nodecount (nodecount), directed (directed) {
 
-    vector<bool> tempvec(nodecount, false);
+    vector<bool> tempvec(nodecount, false);     //initialise temporary vector and set its values to false
     for (int i = 0; i < nodecount; i++) {
-        adjmatrix.push_back(tempvec);
+        adjmatrix.push_back(tempvec);           // initialise adjmatrix with false as entry
     }
 
 }
@@ -40,8 +40,8 @@ list <int> Graph::get_edges (int i) const
 {
   list <int> adjlist_i;
 
-  for (int j=0; j<nodecount; j++){
-      if (adjmatrix[i][j])
+  for (int j=0; j<nodecount; j++){              // extract edges from adjmatrix to adjlist
+      if (adjmatrix[i][j])                      // if edge is true, write j to adjlist_i
         adjlist_i.push_back(j);
   }
 
@@ -53,7 +53,7 @@ bool Graph::is_edge (int i, int j) const
 {
   bool exists;
 
-  exists = adjmatrix[i][j];
+  exists = adjmatrix[i][j];         // if entry of adjmatrix is true -> edge(i,j) exists
 
   return exists;
 }
@@ -83,7 +83,7 @@ bool Graph::remove_edge (int i, int j)
   // If edge does not exist, do nothing
   if (! is_edge (i, j)) return false;
 
-  adjmatrix[i][j] = false;
+  adjmatrix[i][j] = false;      // set entry i,j of adjmatrix to false -> edge removed
 
   // if undirected remove other direction
    if (!directed) adjmatrix[j][i] = false;
@@ -143,10 +143,10 @@ Graph readgraphfromfile (string infilename, bool directed)
 // Write directed or undirected graph to file
 void writegraphtofile (string outfilename, Graph g)
 {
-  ofstream outfile;
-  outfile.open(outfilename);
+  ofstream outfile;                 // output file
+  outfile.open(outfilename);        // open output file
   printgraph(outfile, g);
-  outfile.close();
+  outfile.close();                  // write to file and close
 
   return;
 }
