@@ -1,7 +1,5 @@
 //HUE 2.1
 
-//Calculation of random birthdays in a given group
-
 //Mattia Huber Oberfrank    01417215
 //Marc Rives                01517985
 //David Fürhabter           11831250
