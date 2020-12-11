@@ -1,3 +1,0 @@
-C:/Users/Roger/Desktop/PAD3/cmake-build-debug/CMakeFiles/Pad3.dir
-C:/Users/Roger/Desktop/PAD3/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Roger/Desktop/PAD3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
