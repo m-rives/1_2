@@ -1,3 +1,11 @@
+//HUE 3.1
+
+//Mattia Huber Oberfrank    01417215
+//Marc Rives                01517985
+//David Fuerhapter           11831250
+
+//comments only at the edited parts of the code;
+
 #include <iostream>
 #include <cmath>
 #include "user_io.h"
