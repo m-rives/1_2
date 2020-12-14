@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Pad3" targetName="Pad3" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -28,6 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4497ee26-9324-43ff-88f3-a74fae801c92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +43,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="21" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -109,6 +117,21 @@
       </texify-bibtex>
       <method v="2" />
     </configuration>
+    <configuration name="Pad3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pad3" TARGET_NAME="Pad3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pad3" RUN_TARGET_NAME="Pad3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
         <compiler>PDFLATEX</compiler>
@@ -125,7 +148,7 @@
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>false</has-been-run>
         <bib-run-config>[]</bib-run-config>
-        <makeindex-run-config />
+        <makeindex-run-config>[]</makeindex-run-config>
       </texify>
       <method v="2" />
     </configuration>
@@ -136,21 +159,6 @@
         <work-dir>$APPLICATION_HOME_DIR$/jbr/bin</work-dir>
       </texify-makeindex>
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pad3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pad3" TARGET_NAME="Pad3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pad3" RUN_TARGET_NAME="Pad3">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -188,82 +196,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607259009156">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607259009156" />
-    <state x="480" y="165" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607679662105">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="480" y="165" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1607679662105" />
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606032916469">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606032916469" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1607260205071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607260205071" />
-    <state x="740" y="280" key="FileChooserDialogImpl/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606033005478" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1606747878844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606488428053" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606747878844" />
-    <state width="1333" height="231" key="GridCell.Tab.0.bottom/0.0.2752.1152@0.0.2752.1152" timestamp="1605975636401" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606041112633" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1606747878844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606488428053" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606747878844" />
-    <state width="1333" height="231" key="GridCell.Tab.0.center/0.0.2752.1152@0.0.2752.1152" timestamp="1605975636401" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606041112633" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1606747878844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606488428053" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606747878844" />
-    <state width="1333" height="231" key="GridCell.Tab.0.left/0.0.2752.1152@0.0.2752.1152" timestamp="1605975636401" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606041112633" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1606747878844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1557" height="215" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606488428053" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606747878844" />
-    <state width="1333" height="231" key="GridCell.Tab.0.right/0.0.2752.1152@0.0.2752.1152" timestamp="1605975636401" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606041112633" />
-    <state width="1877" height="243" key="GridCell.Tab.1.bottom" timestamp="1606039766468">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.bottom/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606039766468" />
-    <state width="1877" height="243" key="GridCell.Tab.1.center" timestamp="1606039766468">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.center/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606039766468" />
-    <state width="1877" height="243" key="GridCell.Tab.1.left" timestamp="1606039766468">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.left/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606039766468" />
-    <state width="1877" height="243" key="GridCell.Tab.1.right" timestamp="1606039766468">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.right/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606039766468" />
-    <state width="640" height="202" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1607260208250">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="640" height="202" key="ImportCMakeProjectWizard.bottomPanel/0.0.1920.1040@0.0.1920.1040" timestamp="1607260208250" />
-    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606033006928" />
-    <state width="640" height="473" key="ImportCMakeProjectWizard.topPanel" timestamp="1607260208250">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="640" height="473" key="ImportCMakeProjectWizard.topPanel/0.0.1920.1040@0.0.1920.1040" timestamp="1607260208250" />
-    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1606033006928" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1607259862077">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607259862077" />
   </component>
 </project>
