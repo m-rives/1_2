@@ -78,45 +78,45 @@ void iterFuncMap(int it_calc, int it_disp, double r_min, double r_max, double x_
 
 int main (int argc, char *argv[])
 {
-  // Greeting
-  cout << "Computation of iterated function maps" << endl;
+    // Greeting
+    cout << "Computation of iterated function maps" << endl;
 
-  // Obtain user input:
-  // interations for calculation/display
-  int it_calc = userinput_int ("Number of iterations before display:");
-  int it_disp = userinput_int ("Number of iterations to display:");
+    // Obtain user input:
+    // interations for calculation/display
+    int it_calc = userinput_int ("Number of iterations before display:");
+    int it_disp = userinput_int ("Number of iterations to display:");
 
-  // range of parameter r
-  double r_min = userinput_double ("Drawing range start (parameter):     ");
-  double r_max = userinput_double ("Drawing range end   (parameter):     ");
+    // range of parameter r
+    double r_min = userinput_double ("Drawing range start (parameter):     ");
+    double r_max = userinput_double ("Drawing range end   (parameter):     ");
 
-  // range of x to display
-  double x_min = userinput_double ("Drawing range start (iterated values):");
-  double x_max = userinput_double ("Drawing range end   (iterated values):");
+    // range of x to display
+    double x_min = userinput_double ("Drawing range start (iterated values):");
+    double x_max = userinput_double ("Drawing range end   (iterated values):");
 
-  // image size
-  int nx = userinput_int ("Width of output image:");
-  int ny = userinput_int ("Height of output image:");
+    // image size
+    int nx = userinput_int ("Width of output image:");
+    int ny = userinput_int ("Height of output image:");
 
-  // output file name
-  string outfilename = userinput ("Name of output image:");
+    // output file name
+    string outfilename = userinput ("Name of output image:");
 
-  /*
-  // debug values
-  int it_calc = 10000;
-  int it_disp = 1000;
-  double r_min = 3.53;
-  double r_max = 3.9;
-  double x_min = 0.87;
-  double x_max = 0.9;
-  int nx = 800;
-  int ny = 800;
-  string outfilename = "outtest.pgm";
-  */
+    /*
+    // debug values
+    int it_calc = 10000;
+    int it_disp = 1000;
+    double r_min = 3.53;
+    double r_max = 3.9;
+    double x_min = 0.87;
+    double x_max = 0.9;
+    int nx = 800;
+    int ny = 800;
+    string outfilename = "outtest.pgm";
+    */
 
-  // call function that does everything
-  iterFuncMap(it_calc,it_disp,r_min,r_max,x_min,x_max,nx,ny,outfilename);
+    // call function that does everything
+    iterFuncMap(it_calc,it_disp,r_min,r_max,x_min,x_max,nx,ny,outfilename);
 
-  return 0;
+    return 0;
 }
 
