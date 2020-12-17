@@ -10,113 +10,112 @@
 #include <cmath>
 #include "user_io.h"
 #include "imagec.h"
-#include "vector"
+#include <vector>
 
 using namespace std;
 
-// Function to compute Mandelbrot/Julia iteration
-// Performs maximum kmax iterations
-// Iteration count at which iteration is detected as divergent (if <kmax)
-// is computed, and divided by kmax for normalisation
-double mandelbrot_value (double cr, double ci, int kmax)
-{
-  int k = 0;
-  double zr = 0.0, zi = 0.0;
-  // Iterate until |z|>2 or kmax is reached
-  while (zr * zr + zi * zi <= 4.0 && k < kmax) {
-    ++k;
-    // Compute z*z+c in (zrnew, zinew) and copy back
-    //double zrnew = zr * zr - zi * zi + cr;
-    //double zinew = 2.0 * zr * zi + ci;
-    double zrnew = zr * zr - zi * zi + cr;
-    double zinew = 2.0 * zr * zi + ci;
-    zr = zrnew;
-    zi = zinew;
-  }
-  // Scale final number of iterations by kmax; 1.0* avoids integer division!
-  return 1.0 * k / kmax;
-}
+// function that calculates the limit cycle of a series and outputs it as pgm file
+void iterFuncMap(int it_calc, int it_disp, double r_min, double r_max, double x_min, double x_max, int nx, int ny, string outfilename) {
 
+    // create image object
+    Image image(nx, ny);
 
-double iterFuncMap (double cr, double ci, int kmax) {
+    // set all pixels to white
+    for (int i = 0; i < image.sizex(); ++i)
+        for (int j = 0; j < image.sizey(); ++j)
+            image(i, j) = 255;
 
-    double xk_new = 0;
-    double xk = 0;
-    int k = 0;
+    // calculate all values of parameter r stacked in vector rvec
+    vector<double> rvec(image.sizex());
+    double a = (r_max - r_min) / (rvec.size() - 1);
+    for (int i = 0; i < rvec.size(); ++i)
+        rvec[i] = a * i + r_min;
 
-    while (xk <= 2 || k <= kmax) {
+    // loop over image width/iterations
+    for(int i = 0; i < image.sizex(); ++i)
+    {
+        // start value
+        double x_k = 0.1;
 
-        xk_new = cr * xk * (1 - xk);
-        k++;
-    }
+        // calculate series without output
+        for (int k = 1; k < it_calc; ++k)
+            x_k = rvec.at(i) * x_k * (1 - x_k);
 
-    return 1.0 * k / kmax;
-}
+        // calculate series with parameters for the displayable output
+        for (int k = it_calc; k < it_calc + it_disp; ++k)
+        {
+            x_k = rvec.at(i) * x_k * (1 - x_k);
 
+            // check if current x_k is inside the drawing parameters
+            if (x_k >= x_min && x_k <= x_max)
+            {
+                // calculate percentage of current x_k from x_min to x_max
+                double perc = (x_k - x_min) / (x_max - x_min);
 
-vector< vector< int >> calcIter(double r_min, double r_max, double i_min, double i_max) {
+                // scale percentage with height
+                double scaled = perc * image.sizey();
 
-    //vector< vector< int >> myVec()
-    for (int i = i_min; i < i_max; ++i){
-        for (int r = r_min; r < r_max; ++r) {
-            xk = myVec[i-1][r];
-            xk_new = r*xk(1-xk);
-            myVec[i][r] = xk_new;
+                // subtract scaled value from image height to mirror horizontally
+                int j = image.sizey() - scaled;
+
+                // set concerning pixel to black if inside the parameters
+                image(i, j) = 0;
+            }
         }
     }
-}
+
+    // write image to output and print if it was successful
+    if (image.writepnm(outfilename))
+        cout << endl << "Image was written successfully into " << outfilename << endl;
+    else
+        cout << endl << "Image could not be written successfully." << endl;
 
 
-// Function to visualise the Mandelbrot function within a rectangular region;
-// generates a (grey-value) Image object with the function values 
-// rescaled to the grey-value range [0, 255]
-Image mandelbrot_image (int nx,
-                        double x0, double x1, double y0, double y1,
-                        int k)
-{
-  // Determine height of output image
-  int ny = 1 + (abs ((y1 - y0) / (x1 - x0)) * (nx - 1) + 0.5);
-  // Initialise output (grey-value) image
-  Image output (nx, ny);
-  // Iterate over pixels
-  for (int i=0; i<nx; ++i) {
-    double x = x0 + (x1 - x0) * i / (nx - 1);
-    for (int j=0; j<ny; ++j) {
-      double y = y1 - (y1 - y0) * j / (ny - 1);
-      // Call Mandelbrot function
-      double mval = mandelbrot_value (x, y, k);
-      // Output mval as grey-value only if iteration not completed;
-      // otherwise leave pixel black (inside Mandelbrot set)
-      if (mval < 1.0)
-        output (i, j) = 255.0 * iterFuncMap (x, y, k);
-    }
-  }
-  return output;
+
+
 }
+
 
 int main (int argc, char *argv[])
 {
   // Greeting
   cout << "Computation of iterated function maps" << endl;
 
-  // Obtain user input for fractal computation
-  int k = userinput_int ("Number of iterations before display:");
+  // Obtain user input:
+  // interations for calculation/display
+  int it_calc = userinput_int ("Number of iterations before display:");
+  int it_disp = userinput_int ("Number of iterations to display:");
 
-  int d = userinput_int ("Number of iterations to display:");
+  // range of parameter r
+  double r_min = userinput_double ("Drawing range start (parameter):     ");
+  double r_max = userinput_double ("Drawing range end   (parameter):     ");
 
-  // Obtain user inputs for plot range and output file name
-  double cr_min = userinput_double ("Drawing range start (parameter):     ");
-  double cr_max = userinput_double ("Drawing range end   (parameter):     ");
-  double ci_min = userinput_double ("Drawing range start (iterated values):");
-  double ci_max = userinput_double ("Drawing range end   (iterated values):");
-  string outfilename = userinput ("Name of output image:");
+  // range of x to display
+  double x_min = userinput_double ("Drawing range start (iterated values):");
+  double x_max = userinput_double ("Drawing range end   (iterated values):");
+
+  // image size
   int nx = userinput_int ("Width of output image:");
   int ny = userinput_int ("Height of output image:");
 
-  // Perform computation
-  Image fractalimage = 
-      mandelbrot_image (nx, cr_min, cr_max, ci_min, ci_max, k);
-  fractalimage.writepnm (outfilename);
+  // output file name
+  string outfilename = userinput ("Name of output image:");
+
+  /*
+  // debug values
+  int it_calc = 10000;
+  int it_disp = 1000;
+  double r_min = 3.53;
+  double r_max = 3.9;
+  double x_min = 0.87;
+  double x_max = 0.9;
+  int nx = 800;
+  int ny = 800;
+  string outfilename = "outtest.pgm";
+  */
+
+  // call function that does everything
+  iterFuncMap(it_calc,it_disp,r_min,r_max,x_min,x_max,nx,ny,outfilename);
 
   return 0;
 }

@@ -127,11 +127,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
         <compiler>PDFLATEX</compiler>
@@ -179,6 +174,8 @@
       <workItem from="1607679160060" duration="123000" />
       <workItem from="1607679519163" duration="293000" />
       <workItem from="1607680239422" duration="414000" />
+      <workItem from="1607947472139" duration="6083000" />
+      <workItem from="1608228853119" duration="3255000" />
     </task>
     <servers />
   </component>
